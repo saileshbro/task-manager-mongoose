@@ -3,16 +3,6 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
+    interval: weekly
     time: "23:15"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: lodash
-    versions:
-    - 4.17.21
-  - dependency-name: sharp
-    versions:
-    - 0.28.0
-  - dependency-name: bl
-    versions:
-    - 1.2.3
